@@ -1,0 +1,50 @@
+.input{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 32px;
+    border: 1px solid grey;
+    border-radius: 20px;    
+    overflow: hidden;
+}
+
+.input input{
+    width: calc(100% - 100px);
+    height: 32px;
+    background: transparent;
+    border: 0;
+    padding: 0 10px;
+}
+
+.input input:focus-visible{
+    outline: 0;
+}
+
+.input select{
+    position: relative;
+    width: 68px;
+    height: 32px;
+    border: none;
+    background: transparent;
+    color: grey;
+    outline: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.input button{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 0;
+    font-size: 26px;
+    color: grey;
+    transition: color .2s;
+}
+
+.input button:hover{
+    color: #ca3e47
+}

@@ -1,0 +1,16 @@
+.button{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #666666;
+    background: transparent;
+    border: none;
+    transition: color .2s;
+}
+
+.button:hover{
+    color: #ca3e47;
+}

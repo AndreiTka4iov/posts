@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 60px;
+  background: transparent;
+  border-bottom: 1px solid lightgrey;
+}
+.header .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 60px;
+}/*# sourceMappingURL=header.module.css.map */

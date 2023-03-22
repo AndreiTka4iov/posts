@@ -1,0 +1,22 @@
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40px;
+    height: 50px;
+    margin: 0 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #666666	;
+    transition: color .2s;
+}
+
+.button i {
+    font-size: 32px;
+}
+
+.button:hover{
+    color: #ca3e47;
+}

@@ -1,0 +1,19 @@
+*{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:focus-visible{
+    outline: 0;
+}
