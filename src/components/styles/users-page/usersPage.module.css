@@ -1,0 +1,19 @@
+.users{
+    width: 500px;
+    min-height: calc(100vh - 120px);
+}
+
+.usersScreen{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+}
+
+.list{
+    color: grey;
+    font-size: 32px;
+}
+
+.list i {
+    font-size: 52px;
+}

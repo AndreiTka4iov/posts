@@ -14,12 +14,13 @@ export default class PostService{
     static async getPost(id) {
         const response = await axios.get(`https://jsonplaceholder.typicode.com/posts?id=${id}`)
         return response
-    }
+    } 
 
-    static async getById(id) {
-        const response = await axios.get('https://jsonplaceholder.typicode.com/posts/'+ id)
+    static async getAllUsers() {
+        const response = await axios.get(`https://jsonplaceholder.typicode.com/users`)
         return response
-    }
+    } 
+
 
     static async getCommentsByPostId(id) {
         const response = await axios.get(`https://jsonplaceholder.typicode.com/posts/${id}/comments`)
