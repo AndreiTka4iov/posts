@@ -1,0 +1,17 @@
+.item{
+    margin: 12px 0;
+    width: 100%;    
+    text-align: left;
+}
+
+.item  h3{
+    width: 100%;
+    background: transparent;
+    color: rgb(57, 62, 70);
+}
+
+
+.item  p{
+    width: 100%;
+    color: grey;
+}

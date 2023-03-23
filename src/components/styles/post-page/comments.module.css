@@ -1,0 +1,13 @@
+.comments{
+    width: 100%;
+}
+
+.comments h3 {
+    display: inline-block;
+    width: 100%;
+    padding: 6px 12px;
+    text-align: left;
+    background-color: rgb(57, 62, 70);
+    border-radius: 15px;
+    color: white;
+}

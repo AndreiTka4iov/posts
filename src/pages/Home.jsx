@@ -1,9 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 import cl from '../components/styles/home-page/homePage.module.css'
-import Post from '../components/UI/post/Post'
 import Loader from '../components/UI/loader/Loader'
 import PostService from "../API/PostService";
 import { useDispatch, useSelector } from 'react-redux';
+import PostList from '../components/UI/post/PostList';
 
 
 const Home = () => {
@@ -53,7 +53,7 @@ const Home = () => {
   return (
     <div className={cl.home}>
         {sortedPosts.map((posts) => 
-          <Post key={posts.id} post={posts}/>
+          <PostList key={posts.id} post={posts}/>
         )}
         <div className={cl.morePosts} ref={lastElem}>
           {loader ? <Loader/> : ''}

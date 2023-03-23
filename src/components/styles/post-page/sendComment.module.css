@@ -1,0 +1,40 @@
+.sendComment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    width: 500px;
+    border-top: 1px solid lightgrey;
+    margin-top: 20px;
+}
+
+.sendComment input {
+    width: calc(100% - 40px);
+    height: 40px;
+    padding: 6px 12px;
+    border-radius: 15px;
+    border: 2px solid rgb(57, 62, 70);
+    outline: 0;
+}
+
+.sendComment button{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    color: rgb(57, 62, 70);
+    transition: color .2s;
+}
+
+.sendComment button:hover{
+    color: #ca3e47;
+}
+
+.sendComment .allComments{
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}

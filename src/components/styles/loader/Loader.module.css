@@ -1,4 +1,7 @@
 .spinner {
+    position: absolute;
+    top: calc(50% - 28px);
+    left: calc(50% - 28px);
     width: 56px;
     height: 56px;
     border-radius: 50%;

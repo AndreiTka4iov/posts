@@ -1,0 +1,6 @@
+.postBlock{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    margin: 20px 0;
+}

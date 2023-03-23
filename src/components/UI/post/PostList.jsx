@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import PostService from '../../../API/PostService'
-import cl from '../../styles/Post/Post.module.css'
+import cl from '../../styles/Post/PostList.module.css'
 import Content from './content/Content'
 import UserPost from './user/UserPost'
 
 
-const Post = ({...post}) => {
+const PostList = ({...post}) => {
   const [user, setUser] = useState([])
+
   useEffect(()=>{
     async function getUser() {
       const response = await PostService.userPost(post.post.userId)
@@ -15,6 +16,7 @@ const Post = ({...post}) => {
     getUser()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
+
   return (
     <div className={cl.post}>
         <UserPost href={"/user?id=" + user.id}>{user.name}</UserPost>
@@ -23,4 +25,4 @@ const Post = ({...post}) => {
   )
 }
 
-export default Post
+export default PostList

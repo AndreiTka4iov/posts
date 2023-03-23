@@ -1,0 +1,16 @@
+.body{
+    width: 100%;
+    text-align: left;
+}
+
+.body h3 {
+    font-weight: 700;
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+.body p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
