@@ -1,0 +1,13 @@
+.home{
+    width: 100%;
+    min-height: calc(100vh - 120px);
+
+    .morePosts{
+        position: relative;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
