@@ -3,7 +3,6 @@ import cl from '../../../styles/post-page/CommentItem.module.css'
 
 function CommentItem({...comment}) {
     const response = comment.comment
-    console.log(response);
   return (
     <div className={cl.item}>
         <h3>{response.email}</h3>
