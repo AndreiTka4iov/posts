@@ -41,7 +41,7 @@ function PostBlock() {
         {loader 
         ? <Loader/> 
         : <div className={cl.text}>
-            <UserPost href={"/user?id=" + user.id}>{user.name}</UserPost>
+            <UserPost id={user.id}>{user.name}</UserPost>
             <PostBody post={post}></PostBody>
           </div>
         }

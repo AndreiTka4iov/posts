@@ -1,0 +1,59 @@
+.info {
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+}
+.info .main {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.info .main .avatar {
+  width: 100px;
+  height: 100px;
+  font-size: 100px;
+  color: rgb(57, 62, 70);
+}
+.info .main .name {
+  width: calc(100% - 120px);
+  text-align: left;
+  margin-left: 20px;
+}
+.info .main .name h3 {
+  color: rgb(57, 62, 70);
+  font-size: 32px;
+}
+.info .main .name a {
+  font-size: 20px;
+  color: grey;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.info .main .name a:hover {
+  color: #ca3e47;
+}
+.info .second {
+  width: 100%;
+  margin: 20px 0 0 20px;
+}
+.info .second a {
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.2s;
+  margin: 12px 0;
+}
+.info .second a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+.info .second a span {
+  margin-right: 12px;
+}
+.info .second a:hover {
+  color: #ca3e47;
+}/*# sourceMappingURL=infoBlock.module.css.map */

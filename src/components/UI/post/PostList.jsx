@@ -19,7 +19,7 @@ const PostList = ({...post}) => {
 
   return (
     <div className={cl.post}>
-        <UserPost href={"/user?id=" + user.id}>{user.name}</UserPost>
+        <UserPost id={user.id}>{user.name}</UserPost>
         <Content post={post.post}></Content>
     </div>
   )

@@ -1,0 +1,48 @@
+$background: rgba(57, 62, 70, 1);
+$second: #ca3e47;
+
+.userPost{
+    width: 100%;
+
+    h3{
+        display: inline-block;
+        width: 100%;
+        padding: 6px 12px;
+        margin-top: 20px;
+        background-color: $background;
+        border-radius: 15px;
+        text-align: left;
+        color: white;
+    }
+
+    .list{
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+.post{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    text-align: left;
+    padding: 12px 0;
+    border-bottom: 1px solid lightgrey;
+
+    h3{
+        background: transparent;
+        color: $background;
+        margin: 0;
+        transition: color .2s;
+    }
+
+    span{
+        color: grey;
+    }
+
+    &:hover{
+        h3{
+            color: #ca3e47;
+        }
+    }
+}

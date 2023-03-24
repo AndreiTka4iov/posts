@@ -16,10 +16,20 @@ export default class PostService{
         return response
     } 
 
+    static async getAllPostByUser(id) {
+        const response = await axios.get(`https://jsonplaceholder.typicode.com/posts?userId=${id}`)
+        return response
+    } 
+
     static async getAllUsers() {
         const response = await axios.get(`https://jsonplaceholder.typicode.com/users`)
         return response
     } 
+
+    static async getUser(id) {
+        const response = await axios.get(`https://jsonplaceholder.typicode.com/users?id=${id}`)
+        return response
+    }
 
 
     static async getCommentsByPostId(id) {

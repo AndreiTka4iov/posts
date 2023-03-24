@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import cl from '../../../styles/Post/user/user.module.css'
 
-function UserPost({children, href}) {
+function UserPost({children, id}) {
   return (
-    <a href={href} className={cl.user}>
+    <Link to={"/user/"+id} className={cl.user}>
         <i className='bx bxs-user-circle' ></i>
         {children}
-    </a>
+    </Link>
   )
 }
 

@@ -5,6 +5,7 @@ import Footer from './components/UI/footer/Footer';
 import Header from './components/UI/header/Header';
 import Home from './pages/Home';
 import Post from './pages/Post';
+import UserPage from './pages/UserPage';
 import Users from './pages/Users';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Home />}/>
           <Route path='post/:id' element={<Post />}/>
           <Route path='/users' element={<Users />}/>
+          <Route path='/user/:id' element={<UserPage />}/>
         </Routes>
         <Footer></Footer>
       </div>
