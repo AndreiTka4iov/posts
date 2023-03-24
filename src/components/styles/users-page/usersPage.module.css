@@ -17,3 +17,9 @@
 .list i {
     font-size: 52px;
 }
+
+@media screen and (max-width: 550px) {
+    .users{
+        width: 95%;
+    }
+}

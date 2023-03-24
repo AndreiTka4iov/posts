@@ -32,3 +32,15 @@ $background: rgba(57, 62, 70, 1);
         }
     }
 }
+
+
+@media screen and (max-width: 450px) {
+    .footer{
+        .contact{
+            width: fit-content;
+            a{
+                margin: 0 12px;
+            }
+        }
+    }
+}

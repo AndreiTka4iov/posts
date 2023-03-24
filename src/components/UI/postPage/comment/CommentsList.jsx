@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import cl from '../../../styles/post-page/comments.module.css'
 import Loader from '../../loader/Loader'
-import SendComment from './SendComment'
 import PostService from '../../../../API/PostService'
 import CommentItem from './CommentItem'
 
@@ -21,7 +20,7 @@ function CommentsList() {
         asyncResponse()
           
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [])
+    }, [id])
 
     return (
         <div className={cl.comments}>
@@ -36,7 +35,6 @@ function CommentsList() {
                 </div>
                 }
             </div>
-            <SendComment></SendComment>
         </div>
     )
 }

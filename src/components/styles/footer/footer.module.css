@@ -25,4 +25,14 @@
 }
 .footer .contact a:hover {
   color: #ca3e47;
+}
+
+@media screen and (max-width: 450px) {
+  .footer .contact {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .footer .contact a {
+    margin: 0 12px;
+  }
 }/*# sourceMappingURL=footer.module.css.map */

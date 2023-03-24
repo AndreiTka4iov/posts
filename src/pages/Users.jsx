@@ -12,6 +12,7 @@ function Users() {
     const search = useInput('')
    
     const searchUsers = useMemo(() => {
+        
         if (search.value !== ''){
             return users.filter(users => users.username.toLowerCase().includes(search.value.toLowerCase()))
         } else { return users }
