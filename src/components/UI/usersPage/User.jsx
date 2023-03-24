@@ -5,7 +5,7 @@ import cl from '../../styles/users-page/user.module.css'
 function User({...user}) {
     const response = user.user
     return (
-        <Link to={'/user/'+response.id} className={cl.user}>
+        <Link to={'/posts/user/'+response.id} className={cl.user}>
             <div className={cl.avatar}>
                 <i className='bx bx-user' ></i>
             </div>

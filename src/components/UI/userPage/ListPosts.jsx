@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function ListPosts({...post}) {
   return (
-    <Link to={'/post/'+post.post.id} className={cl.post}>
+    <Link to={'/posts/post/'+post.post.id} className={cl.post}>
         <h3>{post.post.title}</h3>
         <span>{post.post.body}</span>
     </Link>
