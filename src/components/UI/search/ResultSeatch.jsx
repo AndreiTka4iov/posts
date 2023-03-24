@@ -17,7 +17,7 @@ function ResultSeatch({...res}) {
             </div>
             :
             response.map((res) => 
-                <Link key={res.id} to={'/post/' + res.id} onClick={() => dispatch({type: "CLEAR_VALUE"})}>{res.title }</Link>
+                <Link key={res.id} to={'/posts/post/' + res.id} onClick={() => dispatch({type: "CLEAR_VALUE"})}>{res.title }</Link>
             )
             }
             
