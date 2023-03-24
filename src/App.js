@@ -14,10 +14,10 @@ function App() {
       <div className="App">
         <Header></Header>
         <Routes>
-          <Route path='/' element={<Home />}/>
-          <Route path='post/:id' element={<Post />}/>
-          <Route path='/users' element={<Users />}/>
-          <Route path='/user/:id' element={<UserPage />}/>
+          <Route path='/posts/' element={<Home />}/>
+          <Route path='/posts/post/:id' element={<Post />}/>
+          <Route path='/posts/users' element={<Users />}/>
+          <Route path='/posts/user/:id' element={<UserPage />}/>
         </Routes>
         <Footer></Footer>
       </div>
